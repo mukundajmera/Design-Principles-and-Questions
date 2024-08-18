@@ -1,33 +1,32 @@
-class GovtSingleton:
+class ExmapleSingleton:
     __instance__ = None
 
     def __init__(self):
-        # This is a Constructor
 
-        if GovtSingleton.__instance__ is None:
-            GovtSingleton.__instance__ = self
+        if ExmapleSingleton.__instance__ is None:
+            ExmapleSingleton.__instance__ = self
         else:
             raise Exception("We can not creat another class")
 
     @staticmethod
     def get_instance():
         # We define the static method to fetch instance
-        if not GovtSingleton.__instance__:
-            GovtSingleton()
-        return GovtSingleton.__instance__
+        if not ExmapleSingleton.__instance__:
+            ExmapleSingleton()
+        return ExmapleSingleton.__instance__
 
 
-
-if __name__== "__main__":
+if __name__ == "__main__":
     # Creating an object of above defined class.
-    gover = GovtSingleton()
-    print(gover)
+    example = ExmapleSingleton()
+    print(example)
 
-    same_gover = GovtSingleton.get_instance()
-    print(same_gover)
+    #ideal use directly get_instance
+    same_example = ExmapleSingleton.get_instance()
+    print(same_example)
 
-    another_gover = GovtSingleton.get_instance()
-    print(another_gover)
+    another_example = ExmapleSingleton.get_instance()
+    print(another_example)
 
-    new_gover = GovtSingleton()
-    print(new_gover)
+    new_example = ExmapleSingleton()
+    print(new_example)
