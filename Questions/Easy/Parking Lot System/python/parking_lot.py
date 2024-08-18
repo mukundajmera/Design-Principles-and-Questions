@@ -1,7 +1,7 @@
 from typing import List
 
 from level import Level
-from vehicle import Vehicle
+from models.vehicle import Vehicle
 
 
 class ParkingLot:

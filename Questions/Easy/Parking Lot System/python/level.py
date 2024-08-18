@@ -1,6 +1,6 @@
 from typing import List
 
-from vehicle import Vehicle
+from models.vehicle import Vehicle
 from parking_spot import ParkingSpot
 
 

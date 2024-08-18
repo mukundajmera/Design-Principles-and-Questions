@@ -1,5 +1,5 @@
-from vehicle import Vehicle
-from vehicle_type import VehicleType
+from models.vehicle import Vehicle
+from models.vehicle_type import VehicleType
 
 
 class ParkingSpot:

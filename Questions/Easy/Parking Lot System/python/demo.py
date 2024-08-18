@@ -1,7 +1,7 @@
 from level import Level
-from car import Car
-from motorcycle import Motorcycle
-from truck import Truck
+from models.car import Car
+from models.motorcycle import Motorcycle
+from models.truck import Truck
 from parking_lot import ParkingLot
 
 
