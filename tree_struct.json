@@ -1,0 +1,45 @@
+{
+    "root": {
+        "value": 1,
+        "children": [
+            {
+                "child1": {
+                    "value": 2,
+                    "children": [
+                        {
+                            "child11": {
+                                "value": 4,
+                                "children": []
+                            }
+                        },
+                        {
+                            "child12": {
+                                "value": 5,
+                                "children": []
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "child2": {
+                    "value": 3,
+                    "children": [
+                        {
+                            "child21": {
+                                "value": 6,
+                                "children": []
+                            }
+                        },
+                        {
+                            "child22": {
+                                "value": 7,
+                                "children": []
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
